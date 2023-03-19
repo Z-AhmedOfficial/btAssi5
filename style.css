@@ -1,0 +1,61 @@
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{  display:block; opacity: 0;  visibility: hidden; transition:.3s; margin-top:0;  }
+	.navbar .nav-item:hover .nav-link{ color: blue;  }
+	.navbar .dropdown-menu.fade-down{ top:80%; transform: rotateX(-75deg); transform-origin: 0% 0%; }
+	.navbar .dropdown-menu.fade-up{ top:180%;  }
+	.navbar .nav-item:hover .dropdown-menu{ transition: .3s; opacity:1; visibility:visible; top:100%; transform: rotateX(0deg); }
+}
+.div1{
+    height: 100vh;
+}
+.div1 .hea1{
+    margin-top: -450px;
+}
+.div1 .btns{
+    margin-left: 450px;
+}
+.div1 .btns1{
+    margin-left: 650px;
+    position: relative;
+    bottom: 55px;
+}
+.heas{
+    margin-top: 100px;
+}
+.nbtn{
+    margin-left: 130px;
+    background-color: #6f42c1;
+}
+.head1{
+    margin-top: -300px;
+    color: crimson;
+}
+.pp{
+    color: crimson;
+}
+.nnbtn{
+    margin-left: 550px;
+}
+.myhea{
+    margin-top: 100px;
+}
+.ppp{
+    color: gray;
+}
+.div2{
+    height: 120vh;
+    width: 100%;
+    background-color: black;
+}
+footer{
+    display: flex;
+    background-color: darkgreen;
+    height: 400px;
+}
+footer div{
+    margin-top: 50px;
+}
+footer div i{
+    position: relative;
+    left: 650px;
+}
